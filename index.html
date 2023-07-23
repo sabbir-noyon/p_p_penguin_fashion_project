@@ -5,10 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style> 
+        .font-family{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .roboto{
+          
+                            font-family: 'Roboto', sans-serif;
+        }
+
+    
+    </style>
 </head>
 <body>
   
-    <header class="bg-[#FFFBF0;]  p-9       "> 
+    <header class="bg-[#FFFBF0;]  px-32 py-44      "> 
         <!--navigation area start-->
         <nav></nav>
 
@@ -19,11 +33,11 @@
         <div class="hero-container flex items-center justify-between">
 
             <div class="hero-texts">
-                <h1 class="uppercase text-[#363958] text-8xl pb-4 font-medium " ><span class="text-[#fabe4c]">Be the Penguins</span> 
+                <h1 class="uppercase text-[#363958] text-8xl pb-4 font-medium  font-family" ><span class="text-[#fabe4c]">Be the Penguins</span> 
                 <br>
                  of Winter</h1>
-                <p class="text-[#363958] text-2xl pb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore pariatur, illo voluptatem eaque assumenda laboriosam excepturi dolorum quod at saepe?</p>
-                <button class="text-xl bg-[#4cea4c] text-white  rounded-md pt-5 pr-8 pb-5 pl-10 uppercase" > <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor" class="w-6 h-6 inline mr-2 mb-1">
+                <p class="text-[#363958] text-2xl pb-4 roboto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore pariatur, illo voluptatem eaque assumenda laboriosam excepturi dolorum quod at saepe?</p>
+                <button class="text-lg roboto bg-[#4cea4c] text-white  rounded-md pt-5 pr-8 pb-5 pl-10 uppercase  bg-gradient-to-r from-[#A4BC46] to-[#85A019]  font-semibold  " > <a href="#"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="4.0" stroke="currentColor" class="w-6 h-6 inline mr-2 mb-1">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                   </svg>Buy Now</a> </button>
             </div>
